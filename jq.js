@@ -18,7 +18,7 @@ $(document).ready(function(){
     color = $( this ).attr( 'data-color');
 
     //if button clicked, append colored div to container
-    $('.container').append('<div class="'+color+'"><span class="color-cube">' +'</span></div>');
+    $('.container').append('<div class="' + color + ' color-cube">' +'</div>');
 
     if (color=='red'){
       //update color counter
